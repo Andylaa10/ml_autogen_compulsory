@@ -1,5 +1,5 @@
 # ml_autogen_compulsory
-Make an agent that can generate executable python code
+Make an agent that can generate and execute and thereby verifing the python code
 
 ## Requirements
 
@@ -32,6 +32,9 @@ Install the Python dependencies.
 ```bash
 pip install -r requirements.txt
 ```
+
+> [!NOTE]
+> Remember to open docker, because our agent is use docker to execute the generated code
 
 ## Run the program by giving a prompt
 
